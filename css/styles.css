@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.menu{
+    list-style: none;
+    color: white;
+    background-color: black;
+    padding: 25px;
+    position:fixed;
+    z-index: 1;
+    width: 100%;
+}
+.menu li{
+    display:inline-block;
+    border:solid 2px;
+    text-transform: uppercase;
+    padding: 6px;
+    margin: 6px;
+
+
+}
+
+.banner img{
+    width: 100%;
+    height: auto;
+}
+.menu img{
+    width: 20px;
+    height: auto;
+}
+
+body{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.wpp img{
+    width: 40px;
+    height: auto;
+    position: fixed;
+    right: 60px;
+    bottom: 40px;
+}
